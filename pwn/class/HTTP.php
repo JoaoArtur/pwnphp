@@ -21,4 +21,7 @@
         public function status() {
             return $this->request->getStatusCode();
         }
+        public function header() {
+            return $this->request->getHeaders();
+        }
     }
